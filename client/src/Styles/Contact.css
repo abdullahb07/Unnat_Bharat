@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    form {
+        width: 345px;
+        margin-top: 103px;
+    }
+
+    h2{
+        margin-top: 24px;
+    }
+}

@@ -1,0 +1,158 @@
+
+
+.reset-password-form {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  /* background-color: #4CAF50; */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #c4def3;
+}
+
+.form-container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  background-color: #f9f4e1;
+  /* background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%); */
+}
+
+.form-container form {
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #fff;
+*/
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 53px;
+  background-color: #fff0b7;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h4{
+  font-size: 34px;
+}
+
+
+.form-container form .title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.form-container form input {
+  margin-bottom: 33px;
+  width: 339px;
+
+  padding: 12px;
+  border-radius: 0;
+}
+
+.form-container form button {
+  /* border: 1px solid black; */
+  border-radius: 21px;
+  background-color: #ff0000;
+  color: white;
+  width: 250px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.form-container form button:hover {
+  border: 1px solid black;
+  background:#c4def3
+}
+
+.forgot-btn {
+  background-color: #434343a4 !important;
+  border: 0 !important;
+}
+
+.forgot-btn:hover {
+  color: white !important;
+}
+
+.form-control {
+  margin-right: 45px;
+  max-width: 445px;
+  margin-left: 45px;
+
+}
+
+h3{ font-weight: bolder;
+  font-size: 34px;
+  margin-left: 34px;
+}
+
+.ch{
+  margin-left: 52px;
+}
+
+.btn-btn-primary-mt-2
+{
+margin-left: 46px;
+}
+
+@media (max-width: 768px) {
+  .form-container form input {
+    margin-bottom: 33px;
+    width: 305px;
+    padding: 12px;
+    border-radius: 0;
+}
+form {
+  margin: 20px auto;
+  width: 345px;
+}
+
+
+h4 {
+  margin-top: -222px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: -17px;
+  margin-top: 76px;
+}
+
+.form-container form {
+  padding: 36px;
+}
+
+input[type="email"], input[type="text"], input[type="password"] {
+  width: 283px;
+  padding: 7px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+}

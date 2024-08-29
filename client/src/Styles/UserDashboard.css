@@ -1,0 +1,41 @@
+.user-nav-ol button{
+    background-color: red;
+    border-radius: 8px;
+    margin-left: 14px;
+    display: flex;
+    margin-left: 110px;
+    margin-bottom: 45px;
+    margin-top: 75px;
+    font-size: 17px;
+    border: 1px;
+    border-bottom: black;
+    min-width: 134px;
+}
+p {
+    margin-left: 43px;
+    font-size: 24px;
+}
+ul{
+    display: flex;
+}
+.user-nav-ol button:hover{
+    background-color: #3a688d;
+}
+
+@media (max-width: 768px) {
+
+    .rain{
+        margin-top: 25px;
+    }
+
+    .user-nav-ol button{
+        margin-left: 140px;
+        font-size: 12px;
+        margin-top: -19px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+}

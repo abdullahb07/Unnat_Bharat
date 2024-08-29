@@ -1,0 +1,64 @@
+.yojana-page {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.confirmation {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+.yojana-list {
+    margin-top: 40px;
+}
+
+.yojana-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.yojana-list li {
+    margin-bottom: 10px;
+}
+
+.yojana-list a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.yojana-list a:hover {
+    text-decoration: underline;
+}

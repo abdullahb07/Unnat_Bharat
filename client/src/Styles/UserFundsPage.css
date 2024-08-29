@@ -1,0 +1,60 @@
+/* src/Styles/UserFundsPage.css */
+
+.user-funds-page {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.fund h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.fund ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fund li {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fund li h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.fund li p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.fund a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.fund a:hover {
+  text-decoration: underline;
+}
+
+.fund li div {
+  margin-top: 10px;
+}
+
+.fund li div a {
+  font-size: 14px;
+}
+
+.no-projects {
+  text-align: center;
+  color: #777;
+  font-size: 18px;
+}

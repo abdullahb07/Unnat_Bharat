@@ -1,0 +1,73 @@
+/* Styles for navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff0b7;
+  color: #fff;
+}
+
+/* Hide the dropdown menu by default */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+/* Hide the menu button on larger screens */
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Hamburger and cross icons */
+.hamburger-icon {
+  display: none;
+}
+
+.cross-icon {
+  display: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  /* Show the menu button on mobile */
+  .menu-button {
+    display: block;
+  }
+
+  /* Hide the regular navbar links */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* Show the navbar when the menu is active */
+  .navbar.active .nav-links {
+    display: flex;
+  }
+
+  .hamburger-icon {
+    display: inline-block;
+  }
+
+  .cross-icon {
+    display: none;
+  }
+
+  .navbar.active .hamburger-icon {
+    display: none;
+  }
+
+  .navbar.active .cross-icon {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,23 @@
+.user-yojana-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+  flex-direction: column;
+}
+
+/* .user-yojana-list ul {
+  flex-direction: column;
+} */
+
+.user-yojana-list li {
+  margin-bottom: 15px; /* Add space between each Yojana */
+  font-size: 18px; /* Adjust the font size for readability */
+}
+
+.user-yojana-list a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Set link color */
+}
+
+.user-yojana-list a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
